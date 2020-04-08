@@ -1,17 +1,19 @@
 #include "Solver.h"
+#include <iostream>
 
+using namespace std;
 
 
 Solver::Solver()
 {
-}
+};
 
 
 Solver::~Solver()
 {
-}
+};
 
-bool Solver::solveSudoku(int grid[N][N])
+bool Solver::solveSudoku(int grid[][N])
 {
 	int row;
 	int collumn;
@@ -20,7 +22,7 @@ bool Solver::solveSudoku(int grid[N][N])
 		return true;
 	}
 
-	for (int number = 1; number <= 9; number++) {
+	for (int number = 1; number <= N; number++) {
 		if (isOk(grid, row, collumn, number)) {
 			grid[row][collumn] = number;
 
@@ -33,9 +35,9 @@ bool Solver::solveSudoku(int grid[N][N])
 		}
 	}
 	return false;
-}
+};
 
-void Solver::printGrid(int grid[N][N])
+void Solver::printGrid(int grid[][N])
 {
 	for (int r = 0; r < N; r++) {
 		for (int c = 0; c < N; c++) {
@@ -43,9 +45,10 @@ void Solver::printGrid(int grid[N][N])
 		}
 		cout << endl;
 	}
-}
+	cout << endl;
+};
 
-bool Solver::findEmpty(int grid[N][N], int& row, int& collumn)
+bool Solver::findEmpty(int grid[][N], int& row, int& collumn)
 {
 	for (row = 0; row < N; row++) {
 		for (collumn = 0; collumn < N; collumn++) {
@@ -54,27 +57,27 @@ bool Solver::findEmpty(int grid[N][N], int& row, int& collumn)
 		}
 	}
 	return false;
-}
+};
 
-bool Solver::isUsedInRow(int grid[N][N], int row, int number)
+bool Solver::isUsedInRow(int grid[][N], int row, int number)
 {
 	for (int c = 0; c < N; c++) {
 		if (grid[row][c] == number)
 			return true;
 	}
 	return false;
-}
+};
 
-bool Solver::isUsedInCollumn(int grid[N][N], int collumn, int number)
+bool Solver::isUsedInCollumn(int grid[][N], int collumn, int number)
 {
 	for (int r = 0; r < N; r++) {
 		if (grid[r][collumn] == number)
 			return true;
 	}
 	return false;
-}
+};
 
-bool Solver::isUsedInBox(int grid[N][N], int boxRow, int boxCollumn, int number)
+bool Solver::isUsedInBox(int grid[][N], int boxRow, int boxCollumn, int number)
 {
 	for (int row = boxRow; row < boxRow + 3; row++) {
 		for (int col = boxCollumn; col < boxCollumn + 3; col++) {
@@ -83,11 +86,11 @@ bool Solver::isUsedInBox(int grid[N][N], int boxRow, int boxCollumn, int number)
 		}
 	}
 	return false;
-}
+};
 
-bool Solver::isOk(int grid[N][N], int row, int collumn, int number)
+bool Solver::isOk(int grid[][N], int row, int collumn, int number)
 {
-	return !isUsedInRow(grid, row, number) && 
-		!isUsedInCollumn(grid, collumn, number) && 
-		!isUsedInBox(grid, row - row % 3, collumn - collumn%3, number);
-}
+	return !isUsedInRow(grid, row, number) &&
+		!isUsedInCollumn(grid, collumn, number) &&
+		!isUsedInBox(grid, row - row % 3, collumn - collumn % 3, number);
+};

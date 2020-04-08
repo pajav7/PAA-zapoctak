@@ -1,16 +1,33 @@
-﻿// sudoku.cpp : Tento soubor obsahuje funkci main. Provádění programu se tam zahajuje a ukončuje.
-//
-
+﻿
 #include <iostream>
-#include "Solver.h"
-using namespace std;
+#include <chrono>
 
-const int N = 9; //velikost pole
-const int EMPTY = 0;
+#include "Solver.h"
+
+using namespace std::chrono;
 
 int main()
-{
-    std::cout << "Hello World!\n"; 
+{	
+	auto start = high_resolution_clock::now();
+	Solver s;
+	
+	int sudoku[N][N] = {{0, 3, 4, 0, 8, 2, 0, 0, 0},
+						{5, 0, 0, 0, 4, 0, 9, 0, 0},
+						{0, 9, 0, 0, 7, 0, 0, 1, 0},
+						{0, 0, 3, 4, 0, 0, 0, 5, 0},
+						{7, 0, 0, 0, 0, 0, 0, 0, 8},
+						{0, 6, 0, 0, 0, 7, 3, 0, 0},
+						{0, 2, 0, 0, 1, 0, 0, 9, 0},
+						{0, 0, 7, 0, 9, 0, 0, 0, 2},
+						{0, 0, 0, 7, 2, 0, 4, 8, 0} };
+	s.printGrid(sudoku);
+	s.solveSudoku(sudoku);
+	s.printGrid(sudoku);
+
+	auto stop = high_resolution_clock::now(); //Duration count
+
+	auto duration = duration_cast<microseconds>(stop - start);
+	cout << "Total time: " << duration.count() << " microseconds." << endl;
 }
 
 // Spuštění programu: Ctrl+F5 nebo nabídka Ladit > Spustit bez ladění
