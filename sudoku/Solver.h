@@ -7,19 +7,26 @@ const int N = 9;
 
 class Solver
 {
+	int grid[N][N] = { 0 };
+	bool inputOK = false;
 public:
-	Solver();
+	Solver(); //Constructor
 	~Solver();
 	const int EMPTY = 0;
-	bool solveSudoku(int grid[][N]);
-	void printGrid(int grid[][N]);
+	
+	void setGridFromFile();
+	void setGrid(int sud[N][N]);
+	bool solveSudoku();
+	void printGrid();
+	void writeGridToFile();
 
-	bool findEmpty(int grid[][N], int& row, int& collumn);
+	bool findEmpty(int& row, int& collumn);
+	bool checkContradictions();
 
-	bool isUsedInRow(int grid[][N], int row, int number);
-	bool isUsedInCollumn(int grid[][N], int collumn, int number);
-	bool isUsedInBox(int grid[][N], int boxRow, int boxCollumn, int number);
-	bool isOk(int grid[][N], int row, int collumn, int number);
+	bool isUsedInRow(int row, int number);
+	bool isUsedInCollumn(int collumn, int number);
+	bool isUsedInBox(int boxRow, int boxCollumn, int number);
+	bool isOk(int row, int collumn, int number);
 
 };
 
