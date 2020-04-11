@@ -3,6 +3,7 @@
 #include <fstream>
 #include "Solver.h"
 
+
 using namespace std::chrono;
 
 int main()
@@ -21,8 +22,8 @@ int main()
 						{0, 6, 0, 0, 0, 7, 3, 0, 0},
 						{0, 2, 0, 0, 1, 0, 0, 9, 0},
 						{0, 0, 7, 0, 9, 0, 0, 0, 2},
-						{0, 0, 0, 7, 2, 0, 4, 8, 0} };*/
-
+						{0, 0, 0, 7, 2, 0, 4, 8, 0} };
+	*/
 	s.setGridFromFile();
 	s.printGrid();
 

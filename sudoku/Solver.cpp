@@ -112,6 +112,22 @@ void Solver::writeGridToFile() //Writes the sudoku grid into the file "reseniSud
 	outFile.close();
 }
 
+int(*Solver::getGrid())[N]
+{
+	return this->grid;
+};
+
+void Solver::setInputOK(bool ok)
+{
+	this->inputOK = ok;
+	return;
+};
+
+bool Solver::getInputOK()
+{
+	return this->inputOK;
+};
+
 bool Solver::findEmpty(int& row, int& collumn) //Finds an empty place in the sudoku grid (EMPTY = 0)
 {
 	for (row = 0; row < N; row++) {

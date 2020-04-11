@@ -19,6 +19,9 @@ public:
 	bool solveSudoku();
 	void printGrid();
 	void writeGridToFile();
+	int (*getGrid())[N];
+	void setInputOK(bool ok);
+	bool getInputOK();
 
 	bool findEmpty(int& row, int& collumn);
 	bool checkContradictions();
