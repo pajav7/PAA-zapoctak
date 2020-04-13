@@ -1,0 +1,69 @@
+﻿  sudokuParalel.cpp
+D:\FJFI\8. semestr\PAA\PAAzapoctak\sudokuParalel\sudokuParalel.cpp(2): fatal error C1083: Nejde otevřít soubor zahrnout: mpi.h: No such file or directory
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(423,5): error MSB6006: Příkaz CL.exe byl ukončen s kódem 2.
+
+Souhrnné informace o výkonu projektu:
+     1105 ms  D:\FJFI\8. semestr\PAA\PAAzapoctak\sudokuParalel\sudokuParalel.vcxproj   1 volání
+               1105 ms  Build                                      1 volání
+
+Souhrnné informace o výkonu cíle:
+        0 ms  ResolveReferences                          1 volání
+        0 ms  _Xsd                                       1 volání
+        0 ms  AfterMidl                                  1 volání
+        0 ms  _SelectedFiles                             1 volání
+        0 ms  PreBuildEvent                              1 volání
+        0 ms  BeforeBuildGenerateSources                 1 volání
+        0 ms  SelectClCompile                            1 volání
+        0 ms  _Midl                                      1 volání
+        0 ms  AfterBuildGenerateSources                  1 volání
+        0 ms  AfterResolveReferences                     1 volání
+        0 ms  AfterBuildGenerateSourcesEvent             1 volání
+        0 ms  ExpandSDKReferences                        1 volání
+        0 ms  ResolveSDKReferences                       1 volání
+        0 ms  MakeDirsForCl                              1 volání
+        0 ms  MakeDirsForMidl                            1 volání
+        0 ms  SetCABuildNativeEnvironmentVariables       1 volání
+        0 ms  GetResolvedWinMD                           1 volání
+        0 ms  BuildGenerateSources                       1 volání
+        0 ms  GetReferenceAssemblyPaths                  1 volání
+        0 ms  BuildCompileTraverse                       1 volání
+        0 ms  SelectCustomBuild                          1 volání
+        0 ms  PrepareProjectReferences                   1 volání
+        0 ms  BeforeClCompile                            1 volání
+        0 ms  ComputeCLInputPDBName                      1 volání
+        0 ms  BeforeResolveReferences                    1 volání
+        0 ms  _PrepareForReferenceResolution             1 volání
+        0 ms  _PrepareForBuild                           1 volání
+        0 ms  ComputeReferenceCLInput                    1 volání
+        0 ms  _BuildGenerateSourcesAction                1 volání
+        0 ms  ComputeMIDLGeneratedCompileInputs          1 volání
+        1 ms  _SplitProjectReferencesByFileExistence     1 volání
+        1 ms  FixupCLCompileOptions                      1 volání
+        1 ms  _CheckWindowsSDKInstalled                  1 volání
+        1 ms  GetFrameworkPaths                          1 volání
+        1 ms  SetBuildDefaultEnvironmentVariables        1 volání
+        1 ms  BuildGenerateSourcesTraverse               1 volání
+        1 ms  WarnCompileDuplicatedFilename              1 volání
+        1 ms  ResolveAssemblyReferences                  1 volání
+        1 ms  _GetProjectReferenceTargetFrameworkProperties   1 volání
+        2 ms  AssignProjectConfiguration                 1 volání
+        3 ms  InitializeBuildStatus                      1 volání
+        7 ms  CopyFileToFolders                          1 volání
+        8 ms  SetTelemetryEnvironmentVariables           1 volání
+       11 ms  _CheckForInvalidConfigurationAndPlatform   1 volání
+       21 ms  ResolveProjectReferences                   1 volání
+       30 ms  PrepareForBuild                            1 volání
+      973 ms  ClCompile                                  1 volání
+
+Souhrnné informace o výkonu úlohy:
+        1 ms  Message                                    2 volání
+        1 ms  WriteLinesToFile                           1 volání
+        1 ms  ReadLinesFromFile                          1 volání
+        1 ms  Touch                                      1 volání
+        1 ms  Delete                                     1 volání
+        1 ms  MSBuild                                    1 volání
+        2 ms  AssignProjectConfiguration                 1 volání
+        3 ms  SetEnv                                     8 volání
+        7 ms  GetOutOfDateItems                          1 volání
+       26 ms  MakeDir                                    4 volání
+      966 ms  CL                                         1 volání
