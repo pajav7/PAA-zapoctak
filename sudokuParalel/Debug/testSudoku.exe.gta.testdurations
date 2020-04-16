@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GtaTestDurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Executable>D:\FJFI\8. semestr\PAA\PAAzapoctak\sudokuParalel\Debug\testSudoku.exe</Executable>
+  <TestDurations>
+    <TestDuration Test="TestSetGrid.PositiveCase" Duration="2" />
+    <TestDuration Test="TestContradiction.NegativeCase" Duration="1" />
+    <TestDuration Test="TestContradiction.PositiveCase" Duration="1" />
+    <TestDuration Test="TestSolve.PositiveCase" Duration="3" />
+    <TestDuration Test="TestSolve.NegativeCase" Duration="2" />
+  </TestDurations>
+</GtaTestDurations>

@@ -2,50 +2,46 @@
   sudokuParalel.vcxproj -> D:\FJFI\8. semestr\PAA\PAAzapoctak\sudokuParalel\Debug\sudokuParalel.exe
 
 Souhrnné informace o výkonu projektu:
-     1586 ms  D:\FJFI\8. semestr\PAA\PAAzapoctak\sudokuParalel\sudokuParalel.vcxproj   1 volání
-               1586 ms  Build                                      1 volání
+     1464 ms  D:\FJFI\8. semestr\PAA\PAAzapoctak\sudokuParalel\sudokuParalel.vcxproj   1 volání
+               1464 ms  Build                                      1 volání
 
 Souhrnné informace o výkonu cíle:
         0 ms  AfterResourceCompile                       1 volání
         0 ms  MetaGenInputsOutputs                       1 volání
+        0 ms  ComputeLinkSwitches                        1 volání
         0 ms  PreLinkEvent                               1 volání
-        0 ms  DoLinkOutputFilesMatch                     1 volání
-        0 ms  MakeDirsForLink                            1 volání
         0 ms  PrepareResourceNames                       1 volání
         0 ms  CreateCustomManifestResourceNames          1 volání
-        0 ms  SplitResourcesByCulture                    1 volání
-        0 ms  AssignTargetPaths                          1 volání
-        0 ms  ComputeManifestInputsTargets               1 volání
         0 ms  ComputeLinkInputsFromProject               1 volání
-        0 ms  ComputeLinkImportLibraryOutputsForClean    1 volání
         0 ms  ComputeCLGeneratedLinkInputs               1 volání
-        0 ms  ComputeCustomBuildOutput                   1 volání
+        0 ms  ComputeCLOutputs                           1 volání
         0 ms  ComputeManifestGeneratedLinkerInputs       1 volání
+        0 ms  ComputeLinkImportLibraryOutputsForClean    1 volání
         0 ms  ComputeRCGeneratedLinkInputs               1 volání
-        0 ms  ComputeRCOutputs                           1 volání
         0 ms  BeforeLink                                 1 volání
         0 ms  ComputeLegacyManifestEmbedding             1 volání
         0 ms  BuildLinkTraverse                          1 volání
         0 ms  BuildCompile                               1 volání
         0 ms  _BuildCompileAction                        1 volání
         0 ms  AfterBuildCompileEvent                     1 volání
-        0 ms  ComputeCLOutputs                           1 volání
+        0 ms  _ResourceCompile                           1 volání
+        0 ms  MakeDirsForResourceCompile                 1 volání
+        0 ms  BeforeResourceCompile                      1 volání
+        0 ms  ComputeRCOutputs                           1 volání
+        0 ms  _ClCompile                                 1 volání
         0 ms  AfterLink                                  1 volání
-        0 ms  _Link                                      1 volání
         0 ms  _ALink                                     1 volání
         0 ms  AfterBuild                                 1 volání
         0 ms  BuildLink                                  1 volání
         0 ms  _BuildLinkAction                           1 volání
         0 ms  PostBuildEvent                             1 volání
         0 ms  PrepareForRun                              1 volání
-        0 ms  CopyFilesToOutputDirectory                 1 volání
         0 ms  _CheckForCompileOutputs                    1 volání
         0 ms  _CopySourceItemsToOutputDirectory          1 volání
         0 ms  GetCopyToOutputDirectoryItems              1 volání
-        0 ms  GetCopyToOutputDirectoryXamlAppDefs        1 volání
         0 ms  _Deploy                                    1 volání
+        0 ms  _Link                                      1 volání
         0 ms  _Appverifier                               1 volání
-        0 ms  CreateSatelliteAssemblies                  1 volání
         0 ms  _GenerateSatelliteAssemblyInputs           1 volání
         0 ms  _BscMake                                   1 volání
         0 ms  MakeDirsForBscMake                         1 volání
@@ -55,81 +51,85 @@ Souhrnné informace o výkonu cíle:
         0 ms  ComputeCLCompileGeneratedXDCFiles          1 volání
         0 ms  ResolvedXDCMake                            1 volání
         0 ms  RegisterOutput                             1 volání
-        0 ms  _Manifest                                  1 volání
-        0 ms  _ResourceCompile                           1 volání
-        0 ms  FinalizeBuildStatus                        1 volání
+        0 ms  CreateSatelliteAssemblies                  1 volání
+        0 ms  AfterClCompile                             1 volání
         0 ms  Build                                      1 volání
-        0 ms  BeforeResourceCompile                      1 volání
+        0 ms  _SelectedFiles                             1 volání
+        0 ms  ComputeMIDLGeneratedCompileInputs          1 volání
+        0 ms  MakeDirsForMidl                            1 volání
+        0 ms  _Xsd                                       1 volání
+        0 ms  CopyFileToFolders                          1 volání
+        0 ms  _PrepareForReferenceResolution             1 volání
         0 ms  PreBuildEvent                              1 volání
+        0 ms  AfterMidl                                  1 volání
         0 ms  BeforeBuildGenerateSources                 1 volání
-        0 ms  BuildGenerateSourcesTraverse               1 volání
-        0 ms  InitializeBuildStatus                      1 volání
+        0 ms  GetFrameworkPaths                          1 volání
         0 ms  ResolveReferences                          1 volání
         0 ms  AfterResolveReferences                     1 volání
-        0 ms  ResolveAssemblyReferences                  1 volání
         0 ms  ExpandSDKReferences                        1 volání
         0 ms  ResolveSDKReferences                       1 volání
         0 ms  SetCABuildNativeEnvironmentVariables       1 volání
-        0 ms  MakeDirsForResourceCompile                 1 volání
-        0 ms  _CheckWindowsSDKInstalled                  1 volání
-        0 ms  SetBuildDefaultEnvironmentVariables        1 volání
-        0 ms  GetReferenceAssemblyPaths                  1 volání
-        0 ms  GetFrameworkPaths                          1 volání
+        0 ms  BuildGenerateSourcesTraverse               1 volání
+        0 ms  _Midl                                      1 volání
         0 ms  PrepareProjectReferences                   1 volání
-        0 ms  _GetProjectReferenceTargetFrameworkProperties   1 volání
-        0 ms  _SplitProjectReferencesByFileExistence     1 volání
-        0 ms  AssignProjectConfiguration                 1 volání
+        0 ms  AfterBuildGenerateSources                  1 volání
         0 ms  BeforeResolveReferences                    1 volání
-        0 ms  _PrepareForReferenceResolution             1 volání
-        0 ms  _PrepareForBuild                           1 volání
-        0 ms  GetResolvedWinMD                           1 volání
-        0 ms  _Xsd                                       1 volání
-        0 ms  _SelectedFiles                             1 volání
-        0 ms  ComputeReferenceCLInput                    1 volání
-        0 ms  FixupCLCompileOptions                      1 volání
-        0 ms  WarnCompileDuplicatedFilename              1 volání
         0 ms  SelectClCompile                            1 volání
-        0 ms  ComputeCLInputPDBName                      1 volání
+        0 ms  SelectCustomBuild                          1 volání
+        0 ms  FixupCLCompileOptions                      1 volání
+        0 ms  ComputeReferenceCLInput                    1 volání
         0 ms  BeforeClCompile                            1 volání
-        0 ms  AfterClCompile                             1 volání
         0 ms  BuildCompileTraverse                       1 volání
-        0 ms  MakeDirsForCl                              1 volání
+        0 ms  _SplitProjectReferencesByFileExistence     1 volání
+        0 ms  GetResolvedWinMD                           1 volání
         0 ms  BuildGenerateSources                       1 volání
         0 ms  AfterBuildGenerateSourcesEvent             1 volání
-        0 ms  AfterBuildGenerateSources                  1 volání
-        0 ms  _Midl                                      1 volání
-        0 ms  AfterMidl                                  1 volání
-        0 ms  ComputeMIDLGeneratedCompileInputs          1 volání
-        0 ms  MakeDirsForMidl                            1 volání
-        0 ms  _ClCompile                                 1 volání
         0 ms  _BuildGenerateSourcesAction                1 volání
-        0 ms  SelectCustomBuild                          1 volání
-       16 ms  _CheckForInvalidConfigurationAndPlatform   1 volání
-       16 ms  ManagedIncrementalBuildPreProcessDependencyGraph   1 volání
-       16 ms  PrepareForBuild                            1 volání
-       16 ms  CopyFileToFolders                          1 volání
-       16 ms  ResolveProjectReferences                   1 volání
-       16 ms  ComputeLinkSwitches                        1 volání
-       16 ms  SetTelemetryEnvironmentVariables           1 volání
-       47 ms  ManagedIncrementalBuildPostProcessDependencyGraph   1 volání
-      266 ms  Link                                       1 volání
-     1165 ms  ClCompile                                  1 volání
+        1 ms  ComputeCustomBuildOutput                   1 volání
+        1 ms  ResolveAssemblyReferences                  1 volání
+        1 ms  _Manifest                                  1 volání
+        1 ms  DoLinkOutputFilesMatch                     1 volání
+        1 ms  ResolveProjectReferences                   1 volání
+        1 ms  AssignProjectConfiguration                 1 volání
+        1 ms  GetCopyToOutputDirectoryXamlAppDefs        1 volání
+        1 ms  MakeDirsForCl                              1 volání
+        1 ms  GetReferenceAssemblyPaths                  1 volání
+        1 ms  SplitResourcesByCulture                    1 volání
+        1 ms  WarnCompileDuplicatedFilename              1 volání
+        1 ms  SetBuildDefaultEnvironmentVariables        1 volání
+        1 ms  _GetProjectReferenceTargetFrameworkProperties   1 volání
+        1 ms  _PrepareForBuild                           1 volání
+        1 ms  ComputeManifestInputsTargets               1 volání
+        1 ms  ComputeCLInputPDBName                      1 volání
+        1 ms  SetTelemetryEnvironmentVariables           1 volání
+        1 ms  MakeDirsForLink                            1 volání
+        1 ms  CopyFilesToOutputDirectory                 1 volání
+        1 ms  _CheckWindowsSDKInstalled                  1 volání
+        2 ms  FinalizeBuildStatus                        1 volání
+        2 ms  InitializeBuildStatus                      1 volání
+        2 ms  ManagedIncrementalBuildPreProcessDependencyGraph   1 volání
+        3 ms  _CheckForInvalidConfigurationAndPlatform   1 volání
+        4 ms  PrepareForBuild                            1 volání
+        5 ms  AssignTargetPaths                          1 volání
+        9 ms  ManagedIncrementalBuildPostProcessDependencyGraph   1 volání
+      334 ms  Link                                       1 volání
+     1078 ms  ClCompile                                  1 volání
 
 Souhrnné informace o výkonu úlohy:
         0 ms  Message                                    3 volání
-        0 ms  AssignCulture                              1 volání
-        0 ms  AssignTargetPath                           5 volání
-        0 ms  Copy                                       1 volání
-        0 ms  Touch                                      2 volání
         0 ms  WriteLinesToFile                           1 volání
-        0 ms  Delete                                     1 volání
-        0 ms  MakeDir                                    9 volání
-        0 ms  MSBuild                                    1 volání
-        0 ms  AssignProjectConfiguration                 1 volání
         0 ms  ReadLinesFromFile                          1 volání
-       16 ms  MIBPreProcessDependencyGraph               1 volání
-       16 ms  GetOutOfDateItems                          1 volání
-       16 ms  SetEnv                                     8 volání
-       47 ms  MIBPostProcessDependencyGraph              1 volání
-      266 ms  Link                                       1 volání
-     1165 ms  CL                                         1 volání
+        0 ms  GetOutOfDateItems                          1 volání
+        0 ms  Delete                                     1 volání
+        1 ms  AssignProjectConfiguration                 1 volání
+        1 ms  AssignTargetPath                           5 volání
+        1 ms  AssignCulture                              1 volání
+        1 ms  MSBuild                                    1 volání
+        1 ms  SetEnv                                     8 volání
+        1 ms  Copy                                       1 volání
+        1 ms  MakeDir                                    9 volání
+        2 ms  Touch                                      2 volání
+        2 ms  MIBPreProcessDependencyGraph               1 volání
+        8 ms  MIBPostProcessDependencyGraph              1 volání
+      333 ms  Link                                       1 volání
+     1077 ms  CL                                         1 volání
