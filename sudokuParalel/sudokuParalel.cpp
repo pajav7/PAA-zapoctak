@@ -8,9 +8,9 @@
 using namespace std;
 
 
-int main(const int argc, char*** argv)
+int main(const int argc, char* argv[])
 {
-	MPI_Init(&argc, argv);								//Inicialization for multiple thread application
+	MPI_Init(&argc, &argv);								//Inicialization for multiple thread application
 
 	auto start = chrono::high_resolution_clock::now();	//Duration count
 
@@ -30,9 +30,18 @@ int main(const int argc, char*** argv)
 	int sudoku[N][N] = { 0 };
 	int solutionRank = world_size;
 	int solutionFound = 0;
+	
 
 	if (world_rank == 0) {								//Thread with number 0 sets the Grid from file
-		s.setGridFromFile(sudoku, "sudoku1.txt");
+		if (argc > 1) {
+			string textFile = argv[1];
+			cout << "Sudoku from text file: " <<  textFile << endl;
+			s.setGridFromFile(sudoku, textFile);
+		}
+		else {
+			cout << "Sudoku from text file: sudoku1.txt - default setting" << endl;
+			s.setGridFromFile(sudoku, "sudoku1.txt");
+		}
 	}
 
 	MPI_Bcast(*(sudoku), N * N, MPI_INT, 0, MPI_COMM_WORLD);		//Thread 0 broadcast the Grid
